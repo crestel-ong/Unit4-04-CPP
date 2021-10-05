@@ -33,13 +33,15 @@ int main() {
                 std:: cout << "Great job, you guessed right!" << std::endl;
                 break;
             } else if (guessNumber < computerNumber) {
-                std:: cout << "Wrong, try guessing a higher number!" << std::endl;
+                std:: cout << "Wrong, try guessing a higher number!"
+                << std::endl;
                 std:: cout << "" << std::endl;
                     std::cout << "Enter a number between 0 - 10: ";
                     std::cin >> guessNumberAsString;
                     guessNumber = std::stoi(guessNumberAsString);
             } else if (guessNumber > computerNumber) {
-                std:: cout << "Wrong, try guessing a lower number!" << std::endl;
+                std:: cout << "Wrong, try guessing a lower number!"
+                << std::endl;
                 std:: cout << "" << std::endl;
                     std::cout << "Enter a number between 0 - 10: ";
                     std::cin >> guessNumberAsString;
